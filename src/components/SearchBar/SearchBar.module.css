@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(78, 117, 255, 1);
+  border: none; /* Видаляємо рамку */
+  width: 100vw; /* Розширюємо на всю ширину екрану */
+  position: absolute; /* Фіксуємо на верхній частині екрану */
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.headerInput {
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 8px 12px;
+}
+
+.headerBtn {
+  background-color: transparent;
+  border: none;
+}
+
+.headerBtn > svg {
+  cursor: pointer;
+}
