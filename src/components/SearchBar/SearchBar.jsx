@@ -26,6 +26,7 @@ const SearchBar = ({ value, onSearchChange, onSearchSubmit }) => {
             placeholder="Search images and photos"
             value={value}
             className={css.headerInput}
+            style={{ width: "60%" }}
             onChange={(e) => onSearchChange(e.target.value)}
           />
           <button className={css.headerBtn} type="submit">

@@ -4,15 +4,17 @@
   padding: 10px;
   margin-bottom: 10px;
   background-color: rgba(78, 117, 255, 1);
-  border: none; /* Видаляємо рамку */
-  width: 100vw; /* Розширюємо на всю ширину екрану */
-  position: absolute; /* Фіксуємо на верхній частині екрану */
+  border: none;
+  width: 100vw;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
 }
 
 .headerInput {
+  width: 60%;
+  max-width: 600px;
   border-radius: 5px;
   border: none;
   outline: none;
